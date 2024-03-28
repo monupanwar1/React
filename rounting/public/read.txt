@@ -1,0 +1,25 @@
+in this we can use style by three types one is direct style,second is by class name and third one is 
+1.
+style{(e)=>{
+    return {
+        color: e.isactive ? "red" : 'blue',
+
+    }
+}}
+
+2)
+SECOND ONE IS BY CLASS NAME AS WE KNOW THAT STYLE CAN WE PRESENETED ONLY IN THE STRING BUT IN THIS CASE WE WANT TO CHANGE THE ARRAY TO THE STRING
+
+METHOD is
+
+ClassName {(e)=>{
+    return{
+    color: e.isactive ? "red" :
+
+
+    }.join(",")
+}}
+
+
+3)
+and third one is the span method this is the worst method ever
